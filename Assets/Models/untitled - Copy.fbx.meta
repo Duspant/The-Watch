@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 969bbe3a07d9d17439692ca79f9ed1e8
+guid: b0ff1078ae36e0942994f7cb12467049
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: brick-heap-x_u1_v1.002
-    second: {fileID: 2100000, guid: b8801039e276fa04c9d49927806ee954, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
