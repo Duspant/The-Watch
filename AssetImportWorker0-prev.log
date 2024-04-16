@@ -1,0 +1,1140 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.24f1 (334eb2a0b267) revision 3362482'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 24434 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Arjit Kumar/Desktop/The Watch/The Watch
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52325
+Successfully changed project path to: C:/Users/Arjit Kumar/Desktop/The Watch/The Watch
+C:/Users/Arjit Kumar/Desktop/The Watch/The Watch
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2836] Host "[IP] 192.168.29.240 [Port] 0 [Flags] 2 [Guid] 1332186765 [EditorId] 1332186765 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I8I8OKE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2836] Host "[IP] 192.168.29.240 [Port] 0 [Flags] 2 [Guid] 1332186765 [EditorId] 1332186765 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I8I8OKE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 17.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.24f1 (334eb2a0b267)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Arjit Kumar/Desktop/The Watch/The Watch/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     12217 MB
+    Driver:   31.0.101.2115
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009821 seconds.
+- Loaded All Assemblies, in  0.739 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.675 seconds
+Domain Reload Profiling: 1412ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (116ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (308ms)
+			TypeCache.Refresh (305ms)
+				TypeCache.ScanAssembly (278ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (676ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (542ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.087 seconds
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.847 seconds
+Domain Reload Profiling: 1927ms
+	BeginReloadAssembly (298ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (612ms)
+		LoadAssemblies (500ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (288ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (212ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (847ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (637ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (441ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (0.6 MB). Loaded Objects now: 5831.
+Memory consumption went from 223.9 MB to 223.3 MB.
+Total: 4.553400 ms (FindLiveObjects: 0.463400 ms CreateObjectMapping: 0.453100 ms MarkObjects: 3.282900 ms  DeleteObjects: 0.352700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16700.039575 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(f4a7bbc9301046746abddc9e2d91cc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(f4a7bbc9301046746abddc9e2d91cc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abeb86f41a79b1eca7bad84058a99e89') in 0.002437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.025865 seconds.
+  path: Assets/Materials/brick-heap-x_u1_v1.mat
+  artifactKey: Guid(1c86509038a234d418a48ec06a875168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brick-heap-x_u1_v1.mat using Guid(1c86509038a234d418a48ec06a875168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd262b45653fe91fbfeb4b50b8bfcf5da') in 0.606798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Materials/internal_ground_ao_texture 1.mat
+  artifactKey: Guid(c45e2ce7823b9164d9f3aa0310a7f513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/internal_ground_ao_texture 1.mat using Guid(c45e2ce7823b9164d9f3aa0310a7f513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c85fb17567e6c873fff9b48861cdbad') in 0.034984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 33.832811 seconds.
+  path: Assets/Models
+  artifactKey: Guid(7b22258527d32a94b8e6795aa89f2a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(7b22258527d32a94b8e6795aa89f2a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d7c5948e0a0db8f0594690d236a9a2') in 0.001204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 139.350374 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(448e06a88f6cdaf4d83759d209d7eb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(448e06a88f6cdaf4d83759d209d7eb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c96919d15b192acaf0a8dd6fdc4c2b') in 0.001219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 54.791656 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(34e80fd3dbd73b1458503c2cba3fb726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(34e80fd3dbd73b1458503c2cba3fb726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f490ba67497f6ed437531f6716b9294f') in 0.021321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.293969 seconds.
+  path: Assets/Materials/Destroyed debris material.mat
+  artifactKey: Guid(34e80fd3dbd73b1458503c2cba3fb726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Destroyed debris material.mat using Guid(34e80fd3dbd73b1458503c2cba3fb726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea97a8b99bfbe5ef4dcae4bdc8cc26fa') in 0.021641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 85.647884 seconds.
+  path: Assets/Models/untitled.fbx
+  artifactKey: Guid(fa88800473dad4a48ab68f444f682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/untitled.fbx using Guid(fa88800473dad4a48ab68f444f682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4973fb40bc92e086e84ccde5083f3cc1') in 0.198857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 67.516072 seconds.
+  path: Assets/Models/untitled.fbx
+  artifactKey: Guid(fa88800473dad4a48ab68f444f682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/untitled.fbx using Guid(fa88800473dad4a48ab68f444f682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad4bbaa6fcdb172e84388730e56e033') in 0.056192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.075063 seconds.
+  path: Assets/Models/brick-heap-x_u1_v1.002.mat
+  artifactKey: Guid(cc6fedb38a035374bbe8b270e617072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/brick-heap-x_u1_v1.002.mat using Guid(cc6fedb38a035374bbe8b270e617072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01d954699c93e50d1089b758b0484b4') in 0.050318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.713538 seconds.
+  path: Assets/Models/untitled.fbx
+  artifactKey: Guid(fa88800473dad4a48ab68f444f682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/untitled.fbx using Guid(fa88800473dad4a48ab68f444f682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1179b4e853ebcb9f6c0700fbe03371') in 0.086529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 102.020306 seconds.
+  path: Assets/Models/untitled.fbx
+  artifactKey: Guid(fa88800473dad4a48ab68f444f682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/untitled.fbx using Guid(fa88800473dad4a48ab68f444f682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c0701b2f5c126afc106b30a8b4f40d') in 0.050332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.072296 seconds.
+  path: Assets/Models/untitled.fbx
+  artifactKey: Guid(fa88800473dad4a48ab68f444f682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/untitled.fbx using Guid(fa88800473dad4a48ab68f444f682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df4d2a1abe048391cfd5e99987f74d1') in 0.166501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.437822 seconds.
+  path: Assets/Materials/brick-heap-x_u1_v1.002.mat
+  artifactKey: Guid(8a13043110391524e9b7ca9a8fefb943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brick-heap-x_u1_v1.002.mat using Guid(8a13043110391524e9b7ca9a8fefb943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77bfb4b0e08805374b719ba21ee45e4') in 0.025471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.094011 seconds.
+  path: Assets/Models/untitled.fbx
+  artifactKey: Guid(fa88800473dad4a48ab68f444f682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/untitled.fbx using Guid(fa88800473dad4a48ab68f444f682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8aa243b0de4ae551c838e49dac4817') in 0.067104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 53.923897 seconds.
+  path: Assets/Textures/destroyed-debris.jpeg
+  artifactKey: Guid(f9e084a436678354e8ba39deb324c575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/destroyed-debris.jpeg using Guid(f9e084a436678354e8ba39deb324c575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9613009f189d3ab4e7bea0d0cf18aa') in 0.051449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 85.834635 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b361753c69affde0771b0f5946dc5ff') in 0.003000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.005097 seconds.
+  path: Assets/Settings/URP-Balanced-Renderer.asset
+  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742e9692ab296d9a105fe5df4a60ff73') in 0.004058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4733acff6f8a2aa94bf68af8bc77233b') in 0.002273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba35c99064b21e89f29edf014b4a4f4') in 0.002707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 394.745957 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(fb754e6fb62f278428ac0afeb3524ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(fb754e6fb62f278428ac0afeb3524ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e843df06a90170c2824d9c21472dcf83') in 0.026211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 387.995763 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(fb754e6fb62f278428ac0afeb3524ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(fb754e6fb62f278428ac0afeb3524ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138d97102cf4229d250f481cf459e389') in 0.022520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 534.869273 seconds.
+  path: Assets/Models/untitledpacked.fbx
+  artifactKey: Guid(087c43e3288dfbe4fba2ed12df3049ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/untitledpacked.fbx using Guid(087c43e3288dfbe4fba2ed12df3049ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab16db71b35b14a653d13def297a33c') in 0.004771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 23.138283 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-KeepLeftRight.mat
+  artifactKey: Guid(a563b07ff9d1264429691636a87ea15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-KeepLeftRight.mat using Guid(a563b07ff9d1264429691636a87ea15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e9df7dce451b609c900e5e2d0b32bf') in 0.048748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-MinSpeed60kmh.mat
+  artifactKey: Guid(ca2ac0ad328084b4ba39072179b39044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-MinSpeed60kmh.mat using Guid(ca2ac0ad328084b4ba39072179b39044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd028d0b7b01d53e3a4252b7a093e5fb0') in 0.027624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-NoParkingAnytimeLeft.mat
+  artifactKey: Guid(999e321b38ac20f418898c6f6b1edf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-NoParkingAnytimeLeft.mat using Guid(999e321b38ac20f418898c6f6b1edf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cb0bda894632b936d74e8cd22355ab') in 0.024424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.239647 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-NoStanding.mat
+  artifactKey: Guid(70aa5ea810677da45993059921f902d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-NoStanding.mat using Guid(70aa5ea810677da45993059921f902d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7810bd61423bcb3462fa0e36cab29695') in 0.024685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.026059 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-RequestGreenOnBike.mat
+  artifactKey: Guid(7dfa9e095a5627845a115d20fdb22104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-RequestGreenOnBike.mat using Guid(7dfa9e095a5627845a115d20fdb22104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f284279cf23f065aaf61814bbb5ff1') in 0.022974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-Speed80kmh.mat
+  artifactKey: Guid(1f9a4da6bb6bec141a6ddd2f49af2e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-Speed80kmh.mat using Guid(1f9a4da6bb6bec141a6ddd2f49af2e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2decfac46ff0009346dee32211bc0e51') in 0.042447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.463059 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-StopHereOnRed.mat
+  artifactKey: Guid(2e98af3e8c654ea42bf3b006775ec6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-StopHereOnRed.mat using Guid(2e98af3e8c654ea42bf3b006775ec6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666a5287a0c711794ba28c3289268924') in 0.023171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-950A.mat
+  artifactKey: Guid(1efa62e8287a853409a66c3ebf09ef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-950A.mat using Guid(1efa62e8287a853409a66c3ebf09ef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45daa7d205a41e036506c3038e0276bc') in 0.028297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-WrongWayBicycle.mat
+  artifactKey: Guid(0f87deb6419bb354c9764bc076f6fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/330/GSDFedSign-330-WrongWayBicycle.mat using Guid(0f87deb6419bb354c9764bc076f6fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c37edea462066b30300ac32dc383402') in 0.027647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.202873 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-Crosswalk.mat
+  artifactKey: Guid(fa903da28bd75b847baf030bb6f5056f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-Crosswalk.mat using Guid(fa903da28bd75b847baf030bb6f5056f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e588350b081b9d12d09220c3d0383c') in 0.025000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-DoNotDriveShoulder.mat
+  artifactKey: Guid(f52e8182fc574eb4093d27949b04a600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-DoNotDriveShoulder.mat using Guid(f52e8182fc574eb4093d27949b04a600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4d04f47ddf3d4334f2f9d849470542') in 0.029914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-DoNotPassShoulder.mat
+  artifactKey: Guid(402a923fe33c44a41afaf96618eaa073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-DoNotPassShoulder.mat using Guid(402a923fe33c44a41afaf96618eaa073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ecb73b31026cc0aee2fce00780e313') in 0.027627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.220293 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-EndSchoolZone.mat
+  artifactKey: Guid(b3e86b9d709fae84fb5afbc56fdca84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-EndSchoolZone.mat using Guid(b3e86b9d709fae84fb5afbc56fdca84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d06ad384bc0f72448d102438556739') in 0.024471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-KeepLeft.mat
+  artifactKey: Guid(e70ee84d8e8892242bd39d0bc259dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-KeepLeft.mat using Guid(e70ee84d8e8892242bd39d0bc259dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ca17c05dff930faaee57114475d7d0') in 0.039795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.004872 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-KeepLeft2.mat
+  artifactKey: Guid(f61a64491cc2a5943a702a8614e3d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-KeepLeft2.mat using Guid(f61a64491cc2a5943a702a8614e3d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88aadd311101da25a0f9ddfe26fb57bd') in 0.028641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.193839 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-KeepRight2.mat
+  artifactKey: Guid(d2cdb78259f640c469238ea48dc2b080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-KeepRight2.mat using Guid(d2cdb78259f640c469238ea48dc2b080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d01bd04bbaf0620fae7a1f2d6943f3c') in 0.021018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-LightsOnWhenRaining.mat
+  artifactKey: Guid(89879be97cdb3014b9ae261e20f9f9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-LightsOnWhenRaining.mat using Guid(89879be97cdb3014b9ae261e20f9f9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73608e6e1bdd4b84ae2af2ade8dcec4f') in 0.026064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-NoPassingOnShoulder.mat
+  artifactKey: Guid(e8fbb10a7c054e14faced093995f3cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-NoPassingOnShoulder.mat using Guid(e8fbb10a7c054e14faced093995f3cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc74a5a361b63c302e88a142ff18ceb') in 0.029199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-MedianAlertRight.mat
+  artifactKey: Guid(9c500a7ce9c32364bb0b9d5de19c5651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-MedianAlertRight.mat using Guid(9c500a7ce9c32364bb0b9d5de19c5651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02714448e2366ca97e9b02c665be51f9') in 0.021713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.195537 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-NoPed.mat
+  artifactKey: Guid(398aa1ed6e8fe7c438bb1579104b1218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-NoPed.mat using Guid(398aa1ed6e8fe7c438bb1579104b1218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2109b2965591677171d79e5087e75') in 0.022875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-OncomingTrafficHasExtendedGreen.mat
+  artifactKey: Guid(3fdda2880cbf2e841960bfa1bf361a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-OncomingTrafficHasExtendedGreen.mat using Guid(3fdda2880cbf2e841960bfa1bf361a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29952b5bee6d8a44770813c7f26db400') in 0.028802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-SchoolZone15mph.mat
+  artifactKey: Guid(b08d83d4aa2bb7f45b78e25bf993ffe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-SchoolZone15mph.mat using Guid(b08d83d4aa2bb7f45b78e25bf993ffe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8930ae13d0c78a4e8e9d09b2994f736') in 0.031553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-Ramp35mph.mat
+  artifactKey: Guid(1e83f3ae8089e6b49aa878dc5a9be81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-Ramp35mph.mat using Guid(1e83f3ae8089e6b49aa878dc5a9be81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f2c03578e276be0ed1fb7b5fa997e8') in 0.025059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.169120 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-Seatbelt.mat
+  artifactKey: Guid(524a9dba17c049d45ab8a9ea86e73b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-Seatbelt.mat using Guid(524a9dba17c049d45ab8a9ea86e73b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c71dec3ef1e3376834a54f278a3d07') in 0.024874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-StayInLane.mat
+  artifactKey: Guid(a5943365b9dbe02439d3ab38567f0d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-StayInLane.mat using Guid(a5943365b9dbe02439d3ab38567f0d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b16726169c81773949ee0e969be03f') in 0.027214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-SpeedLimit50Red.mat
+  artifactKey: Guid(d118a4f3de84805458790717ad61ed1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-SpeedLimit50Red.mat using Guid(d118a4f3de84805458790717ad61ed1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db3ae41df9ecc03f1d08c3a53e7139b') in 0.026271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.206388 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-StopHereWhenFlashing.mat
+  artifactKey: Guid(d200f64bd63330a42b9409879157599e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-StopHereWhenFlashing.mat using Guid(d200f64bd63330a42b9409879157599e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdad330644a48f8406baa096404f427d') in 0.024478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-Trucks60kmh.mat
+  artifactKey: Guid(9938710286d9cd64dadfb417242cc53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-Trucks60kmh.mat using Guid(9938710286d9cd64dadfb417242cc53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb2bb6e12957f88c704fc87ef432a1c') in 0.026832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-TrucksUseRightLane.mat
+  artifactKey: Guid(d9d2b5db4ffc69143825e3ffae9191d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-TrucksUseRightLane.mat using Guid(d9d2b5db4ffc69143825e3ffae9191d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684276e3faf405294820cecf7e17dc63') in 0.029241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-WalkOnLeftFacingTraffic.mat
+  artifactKey: Guid(e12b163ecb85b60409d2743f652d2a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-WalkOnLeftFacingTraffic.mat using Guid(e12b163ecb85b60409d2743f652d2a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7508834f24fef81926371709003aa77') in 0.024594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-WeightLimit10Tons.mat
+  artifactKey: Guid(98b2b3c6a91ab7941be480ae1f60fcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/396/GSDFedSign-396-WeightLimit10Tons.mat using Guid(98b2b3c6a91ab7941be480ae1f60fcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01649ae4ce90492f5e5492445b1cf10') in 0.033429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.174401 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-182.mat
+  artifactKey: Guid(cb93d11926d5acc428729e14c0f8b738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-182.mat using Guid(cb93d11926d5acc428729e14c0f8b738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e119b78a24350514b9c43b52984b5c') in 0.025792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-AuthVehiclesOnly.mat
+  artifactKey: Guid(209cee74ad2c7c9458d85e55f82c10f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-AuthVehiclesOnly.mat using Guid(209cee74ad2c7c9458d85e55f82c10f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0f2fccce1b60c81e47e5b172cfef58') in 0.041370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-AR150s.mat
+  artifactKey: Guid(e9b24c795d5f8ae4193f27eb5a2361a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-AR150s.mat using Guid(e9b24c795d5f8ae4193f27eb5a2361a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d89f49a8158c4e5e3a7525f300853b') in 0.027773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.200109 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-CoinParking.mat
+  artifactKey: Guid(4e1846da47b860a4989bb55d04fa9199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-CoinParking.mat using Guid(4e1846da47b860a4989bb55d04fa9199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c90b902f8713f4bfa97cb0c05d45afd') in 0.023674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-ExceptOnShoulder.mat
+  artifactKey: Guid(47e28afebeb100a4d8abb2ddf84c0ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-ExceptOnShoulder.mat using Guid(47e28afebeb100a4d8abb2ddf84c0ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad58657eb3436dbc78fb3d458ea6cdf8') in 0.026284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-Exit.mat
+  artifactKey: Guid(8672e1316a7f4c94eadaabc437c3edaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-Exit.mat using Guid(8672e1316a7f4c94eadaabc437c3edaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869580151e55be4e259e0c181a0b6f44') in 0.028349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-FL406A.mat
+  artifactKey: Guid(4e92eb12f227a7a4484fa95c1fdba556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-FL406A.mat using Guid(4e92eb12f227a7a4484fa95c1fdba556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6859d70e168dc710b6b1b5bc0c583319') in 0.027301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-Exit44.mat
+  artifactKey: Guid(4a1d2bfbd3c5dad4081747fb7979c1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-Exit44.mat using Guid(4a1d2bfbd3c5dad4081747fb7979c1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0267be8fb50ca777839e0e66759d26') in 0.034471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.154687 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-LoadingZone.mat
+  artifactKey: Guid(416564f1c4429824799da311746d2ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-LoadingZone.mat using Guid(416564f1c4429824799da311746d2ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdbe4eb6c908e206901aa8554aff60c') in 0.025573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-OH327.mat
+  artifactKey: Guid(8b3d3e7665acb334ca721f09fd0c08e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-OH327.mat using Guid(8b3d3e7665acb334ca721f09fd0c08e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605cd2cc01f0ff07496cd4d6223cdec6') in 0.028881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-NY385.mat
+  artifactKey: Guid(5c8d6f7a0862f6a47acd5433a0ac685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-NY385.mat using Guid(5c8d6f7a0862f6a47acd5433a0ac685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2081777e4985121a133e5be0c56e7276') in 0.037175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.201603 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-OK112.mat
+  artifactKey: Guid(51ac11942c67c534395105c947a83709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-OK112.mat using Guid(51ac11942c67c534395105c947a83709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495b253e3065a241f5e3b75f16ce76d1') in 0.024186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-SC322.mat
+  artifactKey: Guid(bee6ebbbb905d4b4a819787b245316e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-SC322.mat using Guid(bee6ebbbb905d4b4a819787b245316e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689328546d1fd92a85cb4266ea65e2cb') in 0.031568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-TruckRoute.mat
+  artifactKey: Guid(ae0fb28ceee1c10478ae414665dba599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-TruckRoute.mat using Guid(ae0fb28ceee1c10478ae414665dba599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be5e51fd2ce54c679f8de7feb029af1') in 0.027514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-StopForXWalk.mat
+  artifactKey: Guid(c90691d9b79ed8844b5641c99ad3f7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/617/GSDFedSign-617-StopForXWalk.mat using Guid(c90691d9b79ed8844b5641c99ad3f7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65197cd9e6b0a79684fd140fee50bd5f') in 0.031391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.171827 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/861/GSDFedSign-861-AllTrafficMustExit.mat
+  artifactKey: Guid(88289dca47d28a34f834abed94e44e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/861/GSDFedSign-861-AllTrafficMustExit.mat using Guid(88289dca47d28a34f834abed94e44e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be6ed125a66e1c9449637d8c4f1af61') in 0.026205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/861/GSDFedSign-861-RoadClosed.mat
+  artifactKey: Guid(b82ddbccc8673c8429e4f662e62ced42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/861/GSDFedSign-861-RoadClosed.mat using Guid(b82ddbccc8673c8429e4f662e62ced42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e2f070795ca80d1b36f65c00ea6d51') in 0.025822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/861/GSDFedSign-861-TurnOnly.mat
+  artifactKey: Guid(8ec07eb65c073f34ca42b1d0cbbbda84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/861/GSDFedSign-861-TurnOnly.mat using Guid(8ec07eb65c073f34ca42b1d0cbbbda84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e02a7dbd199cf8b524219197089b792') in 0.027335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/861/GSDFedSign-861-SlowVehicles2.mat
+  artifactKey: Guid(a66de91d39101b74ab7bac90a83cb5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/861/GSDFedSign-861-SlowVehicles2.mat using Guid(a66de91d39101b74ab7bac90a83cb5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc968cbbc98bf288266b31ca603b58b') in 0.040006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.188094 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/861/GSDFedSign-861-WeighStationNextRight.mat
+  artifactKey: Guid(9987c2bd6302cec46a9ada873711af26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/861/GSDFedSign-861-WeighStationNextRight.mat using Guid(9987c2bd6302cec46a9ada873711af26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe48cb880cf27f0884aae21639bf33d8') in 0.023275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/861/GSDFedSign-861-WrongWay.mat
+  artifactKey: Guid(60b4f4b6c07200b49965322fadbfc7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/861/GSDFedSign-861-WrongWay.mat using Guid(60b4f4b6c07200b49965322fadbfc7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7beb9398cfbef41cc0d37aa724111ca3') in 0.029702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.983481 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/988/GSDFedSign-988-Towing.mat
+  artifactKey: Guid(60d6b4f3f7352a5438e364669e93434b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/988/GSDFedSign-988-Towing.mat using Guid(60d6b4f3f7352a5438e364669e93434b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e7b431256be09b4909d33d019d7d35') in 0.021209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-BikeSlippery.mat
+  artifactKey: Guid(ad5aba41b60f4b140965bd2072b9ac66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-BikeSlippery.mat using Guid(ad5aba41b60f4b140965bd2072b9ac66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542e59aa533b24b794e718fece16be0a') in 0.025163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Clearance38m.mat
+  artifactKey: Guid(43c72e07f5b13524b86d0779830203e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Clearance38m.mat using Guid(43c72e07f5b13524b86d0779830203e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207177c5dcdeccf3a949bc6143e056fa') in 0.029407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-WatchDownhillSpeed.mat
+  artifactKey: Guid(72d8a982a05866e408e879312b84bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-WatchDownhillSpeed.mat using Guid(72d8a982a05866e408e879312b84bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1c5948ba186ffa1e535b8f0301fe31') in 0.026789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-CenterMedian.mat
+  artifactKey: Guid(bbd054a58063be64eab9ae7d0fa85bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-CenterMedian.mat using Guid(bbd054a58063be64eab9ae7d0fa85bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e084967a01e000b361b8b351692bd6') in 0.025173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/Construction/GSDFedSign-diamond-UtilityWorkAhead.mat
+  artifactKey: Guid(c950bf80f709f5b43be647f71cbda26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/Construction/GSDFedSign-diamond-UtilityWorkAhead.mat using Guid(c950bf80f709f5b43be647f71cbda26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e335d917dcf5d35dcadd2e2eb9442e9') in 0.030124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-DividedHighway.mat
+  artifactKey: Guid(c58e1b35675ca0f438e31895ba760d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-DividedHighway.mat using Guid(c58e1b35675ca0f438e31895ba760d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd96dd4c9730aee2fd18edfbe6cabf9') in 0.042732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Signs/GSDInterTLB2.mat
+  artifactKey: Guid(45046018761606e4595932cd6692d5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Signs/GSDInterTLB2.mat using Guid(45046018761606e4595932cd6692d5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1c5a24252a4d9d46e8fbb45d68e7b1') in 0.048611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterCenter-None-6L.mat
+  artifactKey: Guid(1fe3ad090d7a11b49b8b8f9802edf3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterCenter-None-6L.mat using Guid(1fe3ad090d7a11b49b8b8f9802edf3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947cf5e974d3b211f29037750bac99cb') in 0.037586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Signs/GSDInterTLB1.mat
+  artifactKey: Guid(19156ef3462805748a1c96f0579df6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Signs/GSDInterTLB1.mat using Guid(19156ef3462805748a1c96f0579df6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b47f38c6b36376cd9d6b8a8f8ebd1e') in 0.036087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-BridgesIceBeforeRoad.mat
+  artifactKey: Guid(f5f83f2d0956d2f4ab2c499633685fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-BridgesIceBeforeRoad.mat using Guid(f5f83f2d0956d2f4ab2c499633685fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392a2f7b23951be87a4fc0024518a69d') in 0.036862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterLaneDisabledOuter-4L.mat
+  artifactKey: Guid(63d261614287f4e4697bb792d3886743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterLaneDisabledOuter-4L.mat using Guid(63d261614287f4e4697bb792d3886743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c8de7b58249e3712c2093f6c48d1cf') in 0.060987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Dip.mat
+  artifactKey: Guid(37de501f5696f1e4a83f79c24be7c21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Dip.mat using Guid(37de501f5696f1e4a83f79c24be7c21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e18a453228c9e9a1f6c5f5f6e5bf66f') in 0.031716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/Children/GSDFedSign-diamond-ChildrenPlay1.mat
+  artifactKey: Guid(817c28bfd5136464fad51a37f0ce7234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/Children/GSDFedSign-diamond-ChildrenPlay1.mat using Guid(817c28bfd5136464fad51a37f0ce7234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67281e0f8286804d023fa49f403d2c10') in 0.037683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterLaneDisabledOuter-6L.mat
+  artifactKey: Guid(e6e05f57d49d9df4fb8520be0ae86918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterLaneDisabledOuter-6L.mat using Guid(e6e05f57d49d9df4fb8520be0ae86918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf367a748bf13b88bdf3a86893b3b54d') in 0.036572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-LowFlyingAircraft3.mat
+  artifactKey: Guid(141ca0546c54a7347a07027b5cf483b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-LowFlyingAircraft3.mat using Guid(141ca0546c54a7347a07027b5cf483b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d12b6e1a6c4972383a75287d37b496') in 0.041633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-LaneEnds.mat
+  artifactKey: Guid(9312ecbd6d8fa7b4881d40feac8d8266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-LaneEnds.mat using Guid(9312ecbd6d8fa7b4881d40feac8d8266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d26525e000838e081d4d6624565375c') in 0.033862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Intersection4Way.mat
+  artifactKey: Guid(a76b144bd8b51fb4c8dd7206d89b91b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Intersection4Way.mat using Guid(a76b144bd8b51fb4c8dd7206d89b91b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd6616bd7be4af9883e8a5fa6b70b1d') in 0.039280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Bumps.mat
+  artifactKey: Guid(d03067d2bea28e8478ae72468c2a0a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Bumps.mat using Guid(d03067d2bea28e8478ae72468c2a0a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1fb0669b1756c37a3fae0cfcdf0f0c') in 0.036138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterStretch-Left-4L.mat
+  artifactKey: Guid(321fa0e02ab75114494d8446443e98de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterStretch-Left-4L.mat using Guid(321fa0e02ab75114494d8446443e98de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfe6d0d18ca60b7ffd6215e4ab9d0bd') in 0.045999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterLaneDisabled.mat
+  artifactKey: Guid(6bb6699ca82784b4da80b2fd0a9ebc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterLaneDisabled.mat using Guid(6bb6699ca82784b4da80b2fd0a9ebc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf88aaba7b5870a508b41ded34d60a27') in 0.034803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Unpaved.mat
+  artifactKey: Guid(093714e651795724cb1a105372582c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Unpaved.mat using Guid(093714e651795724cb1a105372582c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3533a60b5a184aa51e6a8ce1134fbfd0') in 0.038467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterCenter-None-6L-3.mat
+  artifactKey: Guid(f335650b42e90614193f323f895e10ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterCenter-None-6L-3.mat using Guid(f335650b42e90614193f323f895e10ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e0323d1d76dd7b2ed165a3c673eee7') in 0.020123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterStretch-Left-2L.mat
+  artifactKey: Guid(98ecd6c4017c06a4eaaf20e071748b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterStretch-Left-2L.mat using Guid(98ecd6c4017c06a4eaaf20e071748b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2bf2b05663d01a146f976670453461') in 0.029579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterStretch-None-4L.mat
+  artifactKey: Guid(2dff8fc4dcaa52f418f6fc19ac851632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterStretch-None-4L.mat using Guid(2dff8fc4dcaa52f418f6fc19ac851632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725361b56967a9aeec88746a0d35e763') in 0.026172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterCenter-None-4L-3.mat
+  artifactKey: Guid(888bf51088f13634492e177dac83fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterCenter-None-4L-3.mat using Guid(888bf51088f13634492e177dac83fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e972484d972e46ff3be6244a5a296b57') in 0.024930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/Children/GSDFedSign-diamond-BlindChild2.mat
+  artifactKey: Guid(ba9fd312654cf8e42a2ef2d118f3e1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/Children/GSDFedSign-diamond-BlindChild2.mat using Guid(ba9fd312654cf8e42a2ef2d118f3e1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a35827c03ca3a94e159090675a4c03') in 0.033607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-TurnLeft902.mat
+  artifactKey: Guid(28731b30a56940340b2a54d4037154e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-TurnLeft902.mat using Guid(28731b30a56940340b2a54d4037154e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a865e6d82d1121c37b6288408e915b1') in 0.034576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterLaneDisabledR.mat
+  artifactKey: Guid(1805926c0070b2444bbee2760247e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterLaneDisabledR.mat using Guid(1805926c0070b2444bbee2760247e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d922b58567b4a8f849d0a501a8a89c') in 0.028182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-45SpeedZoneAhead.mat
+  artifactKey: Guid(14c4cade995561f438fb85f18b551424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-45SpeedZoneAhead.mat using Guid(14c4cade995561f438fb85f18b551424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fcf28c453eacfb02440851c5e6a812') in 0.045396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Downgrade8.mat
+  artifactKey: Guid(4eaa7c66de7489747b2883be83eff8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Downgrade8.mat using Guid(4eaa7c66de7489747b2883be83eff8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b3c9e1bb994125de6b990760930608') in 0.043283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Crosswinds.mat
+  artifactKey: Guid(7e883c0d5b68f1b4d9a8c5300560eeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Crosswinds.mat using Guid(7e883c0d5b68f1b4d9a8c5300560eeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4bd1a39ef810bf71720c3bf7b706da') in 0.025353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/Animals/GSDFedSign-diamond-Deer.mat
+  artifactKey: Guid(a08ae64db4a17d04f8363f3c1b695149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/Animals/GSDFedSign-diamond-Deer.mat using Guid(a08ae64db4a17d04f8363f3c1b695149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1afbdd576f9193508a253dc1854a819') in 0.030849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-TurnRight90.mat
+  artifactKey: Guid(07562e306566a424990eee43774f6882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-TurnRight90.mat using Guid(07562e306566a424990eee43774f6882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f99b1ca34d78e1a418f7f1022d1c9cd') in 0.027442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Square/GSDFedSign-Square-NoTrucksInLeftLane.mat
+  artifactKey: Guid(5c1a98c24a94fe146aa14d8beabca292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Square/GSDFedSign-Square-NoTrucksInLeftLane.mat using Guid(5c1a98c24a94fe146aa14d8beabca292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b30e0f4412195a316e43682a25ba794') in 0.029029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Bicycles.mat
+  artifactKey: Guid(38688831d2ee55642885bf3da3a37014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Bicycles.mat using Guid(38688831d2ee55642885bf3da3a37014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd723e6bd385e21102bd2f247a61d4e51') in 0.028077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-BePrepToStop.mat
+  artifactKey: Guid(bc2e9f7ae2c32ee4a9164a07aece25fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-BePrepToStop.mat using Guid(bc2e9f7ae2c32ee4a9164a07aece25fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b638c31f029fc544c2b5e842aeda9e11') in 0.030946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Bump.mat
+  artifactKey: Guid(5df652b3b0fe1474f847a1d49373e180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Bump.mat using Guid(5df652b3b0fe1474f847a1d49373e180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edef0ab0e3f5ac0949e506d1c03f3d38') in 0.027471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Intersections3Way2Upcoming.mat
+  artifactKey: Guid(395bc2df6f1d18d4e8e57e310eaa889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-Intersections3Way2Upcoming.mat using Guid(395bc2df6f1d18d4e8e57e310eaa889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955e08d2cc3b0c37a8f1a7dbdbf97623') in 0.026562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterLaneDisabledOuter.mat
+  artifactKey: Guid(9cc7c5732179b5f489f1937a2efcf30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterLaneDisabledOuter.mat using Guid(9cc7c5732179b5f489f1937a2efcf30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd735d110aa441756a2238f9234e9124') in 0.036007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/Animals/GSDFedSign-diamond-Duck.mat
+  artifactKey: Guid(812303cda34e8f54dba6cdb3ce6535d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/Animals/GSDFedSign-diamond-Duck.mat using Guid(812303cda34e8f54dba6cdb3ce6535d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0454480bbce4ffe2f49ee29d10816ad') in 0.028291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterStretch-Both-6L.mat
+  artifactKey: Guid(474cbe57c8fcc3443b712f507fd1dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/Markers/GSDInterStretch-Both-6L.mat using Guid(474cbe57c8fcc3443b712f507fd1dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69423bfe583fe56e58649d8679fbde41') in 0.039244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-BridgeSlippery4.mat
+  artifactKey: Guid(0202fe6efbd5ccb4ea642f6371d57ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-BridgeSlippery4.mat using Guid(0202fe6efbd5ccb4ea642f6371d57ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54cf75fb74fb43c863520be51f494fb6') in 0.021550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-CyclistDismountRailroad.mat
+  artifactKey: Guid(837056edd05300b4b9b66cdb0b6fbc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-CyclistDismountRailroad.mat using Guid(837056edd05300b4b9b66cdb0b6fbc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550c7424858cd16432e8707e1444dd66') in 0.022198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-TurnLeft90.mat
+  artifactKey: Guid(11e02d7bf894c90428e438104a229201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/RoadArchitect/RoadArchitect-master/Materials/FedSigns/Diamond/General/GSDFedSign-diamond-TurnLeft90.mat using Guid(11e02d7bf894c90428e438104a229201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65190b871e0af445cd33a65f0449edc1') in 0.021908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
