@@ -48,6 +48,16 @@ ExportedObj/
 *.VC.db
 *.dll
 *.pbd
+*.asset
+*.log
+*.index
+*.csproj
+*.prefs
+*.json
+*.cm
+*.txt
+*.settings
+*.db
 
 # Unity3D generated meta files
 *.pidb.meta
