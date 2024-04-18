@@ -58,6 +58,8 @@ ExportedObj/
 *.txt
 *.settings
 *.db
+*.catalog
+*.pid
 
 # Unity3D generated meta files
 *.pidb.meta
