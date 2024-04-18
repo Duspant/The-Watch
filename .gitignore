@@ -62,6 +62,7 @@ ExportedObj/
 *.pid
 *.md
 *.vsconfig
+*.db.st
 
 # Unity3D generated meta files
 *.pidb.meta
