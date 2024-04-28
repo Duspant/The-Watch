@@ -35,29 +35,5 @@ public class PlayerMovement : MonoBehaviour
 
         // Move the character controller
         controller.Move(move * speed * Time.deltaTime);
-
-        // Debug log to check if "Jump" input is detected
-        Debug.Log("Jump Input: " + Input.GetButtonDown("Jump"));
-
-        // If jump button is pressed and grounded, apply jump force
-        if (Input.GetButtonDown("Jump") && isGrounded)
-        {
-            Debug.Log("Jumping!"); // Debug log to check if this block is executed
-            // Calculate the jump velocity needed to reach the desired jump height
-            float jumpVelocity = Mathf.Sqrt(jumpHeight * -2f * gravity);
-            velocity.y = jumpVelocity;
-        }
-
-        // Debug log to check current velocity before applying jump
-        Debug.Log("Current Velocity: " + velocity.y);
-
-        // Apply gravity to velocity
-        velocity.y += gravity * Time.deltaTime;
-
-        // Move the character controller with velocity
-        controller.Move(velocity * Time.deltaTime);
-
-        // Debug log to check velocity after applying jump
-        Debug.Log("Velocity after jump: " + velocity.y);
     }
 }
