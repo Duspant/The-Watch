@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 5884049991363475000}
   - component: {fileID: 7686044417048585847}
   - component: {fileID: 6158493222575070612}
-  - component: {fileID: 5452694147391649523}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -169,20 +168,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!114 &5452694147391649523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7773581714992172737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5663c6a540a96794fb64e7c104f62db6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseSensitivity: 100
-  playerBody: {fileID: 1465002499749895430}
 --- !u!1001 &1431587776819346157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -319,6 +304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1540797069614753320}
+  animator: {fileID: 0}
   speed: 12
   gravity: -30
   jumpHeight: 3

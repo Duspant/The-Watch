@@ -1,22 +1,31 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using Cinemachine;
 
-public class FreeLookCameraController : MonoBehaviour
+public class MouseRotation : MonoBehaviour
 {
-    public float rotationSpeed = 1f; // Speed of camera rotation
-    public CinemachineFreeLook freeLookCamera; // Reference to the FreeLook camera
+    public float mouseSensitivity = 100f;
 
+    public Transform playerBody;
+
+    float xRotation = 0f;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    // Update is called once per frame
     void Update()
     {
-        if (freeLookCamera != null)
-        {
-            // Rotate the camera horizontally based on input
-            float horizontalInput = Input.GetAxis("Horizontal");
-            freeLookCamera.m_XAxis.m_InputAxisValue = horizontalInput * rotationSpeed;
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
-            // Rotate the camera vertically based on input
-            float verticalInput = Input.GetAxis("Vertical");
-            freeLookCamera.m_YAxis.m_InputAxisValue = verticalInput * rotationSpeed;
-        }
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+
+        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        playerBody.Rotate(Vector3.up * mouseX);
     }
 }
